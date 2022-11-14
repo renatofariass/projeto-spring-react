@@ -1,11 +1,20 @@
 import NotificationButton from "./components/notificationButton"
+import Header from "./components/header"
+import SalesCard from "./components/salesCard"
 
 function App() {
-  return(
+  return (
     //<></> usando fragment para o componente exportar mais de uma tag
-    <> 
-      <h1>hello world!</h1>
-      <NotificationButton></NotificationButton>
+    <>
+      <Header></Header>
+      <main>
+        <section id="sales">
+          <div className="dsmeta-container">
+            <SalesCard></SalesCard>
+          </div>
+
+        </section>
+      </main>
     </>
   )
 
