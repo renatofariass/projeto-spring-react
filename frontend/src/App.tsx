@@ -1,8 +1,12 @@
-
+import NotificationButton from "./components/notificationButton"
 
 function App() {
   return(
-    <h1>hello world!</h1>
+    //<></> usando fragment para o componente exportar mais de uma tag
+    <> 
+      <h1>hello world!</h1>
+      <NotificationButton></NotificationButton>
+    </>
   )
 
 }
